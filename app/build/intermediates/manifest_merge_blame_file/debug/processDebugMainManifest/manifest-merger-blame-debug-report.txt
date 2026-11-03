@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pockettracker"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:2:5-98
+12        android:name="android.hardware.sensor.stepdetector"
+12-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:2:19-70
+13        android:required="false" />
+13-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:2:71-95
+14
+15    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+15-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:3:5-79
+15-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:3:22-76
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:4:5-77
+16-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:4:22-74
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:5:5-77
+17-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:5:22-74
+18
+19    <application
+19-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:5-11:19
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:label="PocketTracker"
+22-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:82-111
+23        android:testOnly="true"
+24        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+24-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:18-81
+25        <activity
+25-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:7:9-9:20
+26            android:name="com.pockettracker.MainActivity"
+26-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:7:19-47
+27            android:exported="true" >
+27-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:7:48-71
+28            <intent-filter>
+28-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:13-154
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:28-79
+29-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:36-77
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:79-138
+31-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:89-136
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:9-118
+36            android:name="com.pockettracker.TrackingService"
+36-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:18-49
+37            android:exported="false"
+37-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:50-74
+38            android:foregroundServiceType="dataSync" />
+38-->D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:75-115
+39    </application>
+40
+41</manifest>

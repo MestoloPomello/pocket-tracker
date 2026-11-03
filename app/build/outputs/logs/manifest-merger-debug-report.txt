@@ -1,0 +1,76 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:1:1-12:12
+MERGED from [:core] D:\_Progetti\pocket-tracker\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:1:11-69
+uses-feature#android.hardware.sensor.stepdetector
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:2:5-98
+	android:required
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:2:71-95
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:2:19-70
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:3:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:4:5-77
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:4:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:5:22-74
+application
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:5-11:19
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:5-11:19
+	android:extractNativeLibs
+		INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:82-111
+	android:theme
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:6:18-81
+activity#com.pockettracker.MainActivity
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:7:9-9:20
+	android:exported
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:7:48-71
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:13-154
+action#android.intent.action.MAIN
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:28-79
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:36-77
+category#android.intent.category.LAUNCHER
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:79-138
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:8:89-136
+service#com.pockettracker.TrackingService
+ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:9-118
+	android:exported
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:50-74
+	android:foregroundServiceType
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:75-115
+	android:name
+		ADDED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml:10:18-49
+uses-sdk
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+MERGED from [:core] D:\_Progetti\pocket-tracker\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:core] D:\_Progetti\pocket-tracker\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\_Progetti\pocket-tracker\app\src\main\AndroidManifest.xml

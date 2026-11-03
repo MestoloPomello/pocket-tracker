@@ -1,0 +1,8 @@
+com.pockettracker.app-pngs-0 D:\_Progetti\pocket-tracker\app\build\generated\res\pngs\debug
+com.pockettracker.app-resValues-1 D:\_Progetti\pocket-tracker\app\build\generated\res\resValues\debug
+com.pockettracker.app-packageDebugResources-2 D:\_Progetti\pocket-tracker\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.pockettracker.app-packageDebugResources-3 D:\_Progetti\pocket-tracker\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.pockettracker.app-debug-4 D:\_Progetti\pocket-tracker\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.pockettracker.app-debug-5 D:\_Progetti\pocket-tracker\app\src\debug\res
+com.pockettracker.app-main-6 D:\_Progetti\pocket-tracker\app\src\main\res
+com.pockettracker.app-debug-7 D:\_Progetti\pocket-tracker\core\build\intermediates\packaged_res\debug\packageDebugResources
